@@ -1,94 +1,98 @@
-🚀 TCF Learning Platform
-Welcome to TCF Learning Platform, a modern microservices-based platform designed to empower learners with a seamless, scalable, and secure experience! 🌟
+# 🚀 TCF Learning Platform
 
-📚 Project Overview
-TCF Learning Platform is currently under active development with the goal of delivering a powerful educational ecosystem.
-The project kickstarts with a robust Authentication Service developed using the MEAN Stack (MongoDB, Express.js, Angular, Node.js) with JWT authentication for secure and scalable user management.
+Welcome to **TCF Learning Platform**, a modern microservices-based platform designed to empower learners with a seamless, scalable, and secure experience! 🌟
 
-Future services (like Course Management, Content Delivery, Analytics, and more) are planned as independent microservices built with Spring Boot for high performance and flexibility.
+---
 
-🛠️ Tech Stack
-Frontend
-Angular
+## 📚 Project Overview
 
-TypeScript
+**TCF Learning Platform** is currently under active development with the goal of delivering a **powerful educational ecosystem**.  
+The project kickstarts with a robust **Authentication Service** developed using the **MEAN Stack** (MongoDB, Express.js, Angular, Node.js) with **JWT authentication** for secure and scalable user management.
 
-Bootstrap / Angular Material (UI components)
+Future services (like Course Management, Content Delivery, Analytics, and more) are **planned as independent microservices** built with **Spring Boot** for high performance and flexibility.
 
-Backend
-Node.js
+---
 
-Express.js
+## 🛠️ Tech Stack
 
-MongoDB (Mongoose ODM)
+### Frontend
+- **Angular**  
+- **TypeScript**
+- **Bootstrap / Angular Material** (UI components)
 
-JWT (JSON Web Tokens) for authentication
+### Backend
+- **Node.js**  
+- **Express.js**  
+- **MongoDB** (Mongoose ODM)
+- **JWT (JSON Web Tokens)** for authentication
 
-Planned Microservices (Backend Expansion)
-Spring Boot (Java)
+### Planned Microservices (Backend Expansion)
+- **Spring Boot** (Java)
+- **MySQL** / **PostgreSQL**
+- **Eureka Server** for Service Discovery (planned)
+- **API Gateway** (planned)
 
-MySQL / PostgreSQL
+---
 
-Eureka Server for Service Discovery (planned)
+## ✨ Features Implemented
 
-API Gateway (planned)
+- 🔐 **User Authentication** (Register / Login / Logout)
+- 🔑 **JWT Token-Based Security**
+- 🛡️ **Role-Based Access Control** (planned)
+- 🔄 **Refresh Token System** (planned)
+- 📈 **Microservices Architecture Design**
 
-✨ Features Implemented
-🔐 User Authentication (Register / Login / Logout)
+---
 
-🔑 JWT Token-Based Security
+## 🔥 Why This Project?
 
-🛡️ Role-Based Access Control (planned)
+- **Hands-on experience with Angular**: Building beautiful, reactive user interfaces.
+- **Mastering secure backend development**: Deep dive into authentication, authorization, and API security.
+- **Microservices exploration**: Building a scalable and maintainable architecture with a combination of Node.js and Spring Boot.
+- **Future-ready architecture**: Open to CI/CD integration, Docker deployment, Kubernetes scaling.
 
-🔄 Refresh Token System (planned)
+---
 
-📈 Microservices Architecture Design
+## 📸 Sneak Peek
 
-🔥 Why This Project?
-Hands-on experience with Angular: Building beautiful, reactive user interfaces.
+🎥 Attached: A small glimpse of the current Authentication service in action!  
+*(Video uploaded separately.)*
 
-Mastering secure backend development: Deep dive into authentication, authorization, and API security.
+---
 
-Microservices exploration: Building a scalable and maintainable architecture with a combination of Node.js and Spring Boot.
+## 🚧 Roadmap
 
-Future-ready architecture: Open to CI/CD integration, Docker deployment, Kubernetes scaling.
+- [x] Authentication Module (MEAN Stack)
+- [ ] Profile Management Service (Spring Boot)
+- [ ] Course Management Service (Spring Boot)
+- [ ] Content Delivery Service
+- [ ] Analytics and Reporting
+- [ ] Full Microservices Deployment with API Gateway
 
-📸 Sneak Peek
-🎥 Attached: A small glimpse of the current Authentication service in action!
-(Video uploaded separately.)
+---
 
-🚧 Roadmap
- Authentication Module (MEAN Stack)
+## 🧠 Learning Outcomes
 
- Profile Management Service (Spring Boot)
+- Angular Component Architecture & Services
+- Secure REST APIs with Express.js
+- JWT Authentication & Authorization
+- MongoDB CRUD Operations
+- Introduction to Microservices with Spring Boot
+- Building scalable backend systems
 
- Course Management Service (Spring Boot)
+---
 
- Content Delivery Service
+## 🤝 Contributions
 
- Analytics and Reporting
+Currently a solo project — but open to collaborations and ideas! Feel free to reach out if you're passionate about **EdTech** and **Microservices**. 🚀
 
- Full Microservices Deployment with API Gateway
+---
 
-🧠 Learning Outcomes
-Angular Component Architecture & Services
+## 📬 Contact
 
-Secure REST APIs with Express.js
+- 📧 Email: [your-email@example.com]
+- 💼 LinkedIn: [https://www.linkedin.com/in/your-profile/]
 
-JWT Authentication & Authorization
+---
 
-MongoDB CRUD Operations
-
-Introduction to Microservices with Spring Boot
-
-Building scalable backend systems
-
-🤝 Contributions
-Currently a solo project — but open to collaborations and ideas! Feel free to reach out if you're passionate about EdTech and Microservices. 🚀
-
-📬 Contact
-📧 Email: [Your Email]
-
-💼 LinkedIn: [Your LinkedIn Profile]
-
-🚀 Let's build the future of learning, one microservice at a time!
+# 🚀 Let's build the future of learning, one microservice at a time!
