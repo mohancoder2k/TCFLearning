@@ -90,8 +90,8 @@ Currently a solo project — but open to collaborations and ideas! Feel free to 
 
 ## 📬 Contact
 
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [https://www.linkedin.com/in/your-profile/]
+- 📧 Email: [mohansarady@gmail.com]
+- 💼 LinkedIn: [https://www.linkedin.com/in/mohan-sarady-539095354//]
 
 ---
 
