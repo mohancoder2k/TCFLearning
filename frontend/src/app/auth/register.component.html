@@ -1,0 +1,94 @@
+<div class="register-container">
+  <div class="register-content">
+    <div class="register-left">
+      <div class="platform-info">
+        <h1 class="platform-name">TCF Learning Platform</h1>
+        <p class="platform-tagline">Join Our Global Learning Community</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <span class="feature-title">Personalized Learning Path</span>
+            <p class="feature-desc">Tailored courses for your skill level</p>
+          </div>
+          <div class="feature-item">
+            <span class="feature-title">Industry Recognition</span>
+            <p class="feature-desc">Earn certificates valued by employers</p>
+          </div>
+          <div class="feature-item">
+            <span class="feature-title">Collaborative Learning</span>
+            <p class="feature-desc">Join study groups and peer discussions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="register-right">
+      <div class="register-card">
+        <h2 class="register-heading">Create Account</h2>
+        <p class="register-subheading">Start your learning journey today</p>
+        
+        <div class="form-group">
+          <div *ngIf="error" class="error-message">{{ error }}</div>
+          
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input 
+              id="name"
+              [(ngModel)]="name" 
+              type="text" 
+              placeholder="Enter your full name"
+              class="input-field"
+            />
+          </div>
+          
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input 
+              id="email"
+              [(ngModel)]="email" 
+              type="email" 
+              placeholder="Enter your email"
+              class="input-field"
+            />
+          </div>
+          
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input 
+              id="password"
+              [(ngModel)]="password" 
+              type="password" 
+              placeholder="Create a password"
+              class="input-field"
+            />
+          </div>
+          
+          <div class="input-group">
+            <label for="role">I want to join as</label>
+            <select 
+              id="role"
+              [(ngModel)]="role"
+              class="input-field select-field"
+            >
+              <option value="student">Student</option>
+              <option value="admin">Tutor</option>
+            </select>
+          </div>
+          
+          <button (click)="register()" class="register-button">
+            Create Account
+          </button>
+          
+          <p class="login-prompt">
+            Already have an account? <a href="#" [routerLink]="'/login'" class="login-link">Sign in</a>
+          </p>
+          
+          <p class="terms">
+            By creating an account, you agree to our
+            <a href="#" class="terms-link">Terms of Service</a> and
+            <a href="#" class="terms-link">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
